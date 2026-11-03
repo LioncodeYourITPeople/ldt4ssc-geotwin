@@ -1,18 +1,22 @@
 # Assets
 
-This folder is for **pointers and descriptions** of shared artefacts produced by your
-pilot — not necessarily for the artefacts themselves.
+Pointers to outputs of the GeoTwin ELBG pilot. The files themselves
+live in the
+[implementation repository](https://github.com/LioncodeYourITPeople/GeoTwin-ELBG).
+This folder does not vendor them.
 
-The canonical home for mature, reusable pilot outputs is the LDT4SSC Assets and
-Services Repository, developed under Work Package 5. When your pilot produces an
-output that is ready to be shared, it will be contributed to that repository
-following the process and guidelines provided by WP5.
+None of these have been deposited in the LDT4SSC Assets and Services
+Repository yet. When one is, add an `asset` update under
+[`updates/`](../updates/).
 
-This folder is a working space: a place to describe in-progress artefacts, link to
-where they currently live, and record contributions made to the Assets and Services
-Repository. A typical entry is a short Markdown file describing an asset, its
-purpose, its current state, its licence, and a link to its actual location.
+| Pointer | Output | State |
+| --- | --- | --- |
+| [platform.md](platform.md) | Local digital twin stack | In development, not deployed for the municipalities |
+| [user-manuals.md](user-manuals.md) | Dashboard guides in EN, EL, and BG | Published in the implementation repository |
+| [foss.md](foss.md) | Component and licence inventory | Published in the implementation repository |
+| [smart-data-models.md](smart-data-models.md) | NGSI-LD model notes and extensions | Used by the broker; described, not copied here |
 
-When you contribute an asset to the LDT4SSC Assets and Services Repository, you
-should also publish an `asset` update in the `updates/` folder so that the
-contribution is recorded in your pilot's journey.
+Code in this repository is Apache 2.0. Documentation is CC BY 4.0. See
+the [LICENSE](../LICENSE). The implementation repository does not yet
+carry its own LICENSE file. Third-party components keep the licences
+listed in the FOSS inventory.

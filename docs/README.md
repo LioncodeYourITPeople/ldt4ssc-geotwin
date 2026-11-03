@@ -1,11 +1,14 @@
 # Documentation
 
-This folder is for general project documentation: architecture notes, implementation
-decisions, methodology, glossaries, and any longer-form material that does not fit
-the structured update format used in `updates/`.
+Standing notes for this pilot. Dated progress posts live in
+[`updates/`](../updates/) and are the record the LDT4SSC aggregator
+reads. Pages here are linked from those posts when a reader wants the
+current picture rather than a single day's note.
 
-Content here may be rendered on the LDT4SSC Knowledge Hub alongside your pilot's updates
-on request, but is not included in the chronological feed. Use this folder for things you 
-want to be able to link to from updates, but do not want to post as a time-stamped event.
+| Document | What it is |
+| --- | --- |
+| [status.md](status.md) | Snapshot as of 6 October 2026: what the platform contains, and what is not live. |
 
-There are no formatting requirements for documents in this folder. Organise the folder however suits your pilot best.
+Platform architecture, ingestion, machine learning, and the user
+manuals are maintained in the implementation repository:
+[GeoTwin-ELBG](https://github.com/LioncodeYourITPeople/GeoTwin-ELBG).

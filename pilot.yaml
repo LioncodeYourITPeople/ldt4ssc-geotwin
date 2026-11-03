@@ -14,55 +14,76 @@
 schema_version: 1
 
 # Short name of the pilot, in lowercase with hyphens (used in URLs)
-short_name: <your-pilot-short-name>
+short_name: geotwin-elbg
 
 # Human-readable name of the pilot
-name: <Your Pilot Full Name>
+name: GeoTwin ELBG
 
 # Short description of the pilot (one or two sentences)
 description: >
-  <A short description of what this pilot is about, what challenge it
-  addresses, and what value it aims to deliver. One or two sentences is
-  enough.>
+  Cross-border Local Digital Twin for Nestos (Greece) and Sandanski
+  (Bulgaria) that uses Copernicus CAMS, Sentinel, and open EU geospatial
+  data to deliver neighbourhood-scale air-quality forecasts and
+  policy what-if scenarios — without local IoT sensor hardware.
 
 # LDT4SSC work strand: WS1, WS2, or WS3
-work_strand: <WS1 | WS2 | WS3>
+work_strand: WS2
 
 # The cities, regions, or communities involved in this pilot
 locations:
-  - city: <City name>
-    country: <Country name>
-    country_code: <ISO 3166-1 alpha-2 code, e.g. LU, IT, ES>
-  # Add more entries as needed for multi-city pilots
+  - city: Nestos
+    country: Greece
+    country_code: GR
+  - city: Sandanski
+    country: Bulgaria
+    country_code: BG
 
 # The thematic focus areas of the pilot, drawn from the LDT4SSC topic list.
 # Pick all that apply. The full list is documented in the LDT4SSC Knowledge
 # Hub under Resources for Pilots.
 focus_areas:
-  - <e.g. mobility>
-  - <e.g. air-quality>
+  - air-quality
+  - climate-change
+  - mobility
+  - urban-planning
 
 # The consortium members participating in this pilot
 consortium:
-  - name: <Organisation name>
-    role: <e.g. Pilot lead, Public authority, Technology partner, Research>
-    country_code: <ISO 3166-1 alpha-2 code>
-    website: <https://...>  # optional
-  # Add more entries for each consortium member
+  - name: LIONCODE PC
+    role: Pilot lead
+    country_code: GR
+    website: https://lioncode.gr
+  - name: Municipality of Nestos
+    role: Public authority
+    country_code: GR
+    website: https://dimosnestou.gov.gr
+  - name: Municipality of Sandanski
+    role: Public authority
+    country_code: BG
+    website: https://www.sandanski.bg
+  - name: Kavala Chamber of Commerce
+    role: Dissemination and stakeholder engagement
+    country_code: GR
+  - name: LabGeo — Aristotle University of Thessaloniki
+    role: Research
+    country_code: GR
+    website: https://www.auth.gr
 
 # Primary contact for the pilot
 contact:
-  name: <Contact person name>
-  email: <contact@example.org>
-  organisation: <Organisation name>
+  name: Chrysafis Nathanailidis
+  email: nathanailidis@lioncode.gr
+  organisation: LIONCODE PC
 
 # Date the pilot started (ISO 8601 format: YYYY-MM-DD)
-start_date: <YYYY-MM-DD>
+start_date: 2026-06-01
 
-# Optional: expected end date of the pilot
-# end_date: <YYYY-MM-DD>
+# Optional: expected end date of the pilot (18 months)
+end_date: 2027-11-30
 
 # Optional: list of external repositories or websites associated with this pilot
-# external_links:
-#   - label: <Description>
-#     url: <https://...>
+external_links:
+  - label: Pilot repository
+    url: https://github.com/LioncodeYourITPeople/GeoTwin-ELBG
+  - label: LDT4SSC Knowledge Hub
+    url: https://knowledgehub.ldt4ssc.eu/

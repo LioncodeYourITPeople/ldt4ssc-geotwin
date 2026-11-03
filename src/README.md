@@ -1,12 +1,9 @@
 # Source code
 
-This folder is for source code developed by your pilot, when shared through this
-repository.
+The platform source is developed in the
+[GeoTwin-ELBG monorepo](https://github.com/LioncodeYourITPeople/GeoTwin-ELBG).
+It is not vendored in this repository. This repository records progress
+and points at that code.
 
-Some pilots will use this folder as the primary home for their code. Others will
-keep their code in existing repositories and use this folder lightly, as a place
-for references or lightweight demonstration code. Both approaches are supported.
-
-If you already maintain a substantial codebase elsewhere, you do not need to mirror
-it here — a pointer (in this README or in a sub-folder) to the external repository
-is sufficient.
+A short description of the repository as a reusable output is in
+[assets/platform.md](../assets/platform.md).
